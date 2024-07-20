@@ -1,0 +1,192 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f0f2f5;
+}
+
+.login-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    max-width: 500px;
+}
+
+.language-selector {
+    text-align: center;
+    border: none;
+    background: none;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.language-selector button {
+    border: none;
+    background: none;
+    font-size: 14px;
+    cursor: pointer;
+    color: #606770;
+}
+
+.logo img {
+    width: 50px;
+    margin-bottom: 30px;
+}
+
+.info-text {
+    font-size: 14px;
+    color: #606770;
+    text-align: left;
+}
+
+.info-text a {
+    color: #1877f2;
+    text-decoration: none;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form input {
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #dddfe2;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.login-form button {
+    padding: 10px;
+    background: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.create-account {
+    padding: 10px;
+    background: transparent;
+    color: #1877f2;
+    border: 1px solid #1877f2;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.meta-logo img {
+    width: 90px;
+    margin-top: 5px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.modal-content h2 {
+    margin-top: 0;
+}
+
+.modal-content label {
+    display: block;
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+.modal-content label input {
+    margin-right: 10px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-content {
+    position: relative;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    max-width: 90%;
+    max-height: 80%;
+    overflow-y: auto;
+}
+
+.modal-content h2 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.modal-content form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-content label {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.modal-content label input[type="radio"] {
+    margin-right: 10px;
+}
+
+.close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
