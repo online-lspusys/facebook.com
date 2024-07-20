@@ -113,49 +113,11 @@ body {
 }
 
 .modal-content {
-    background-color: #fff;
-    margin: 15% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 90%;
-    max-width: 400px;
-    border-radius: 8px;
-    text-align: left;
-}
-
-.modal-content h2 {
-    margin-top: 0;
-}
-
-.modal-content label {
-    display: block;
-    margin: 8px 0;
-    font-size: 16px;
-}
-
-.modal-content label input {
-    margin-right: 10px;
-}
-
-.close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.modal-content {
     position: relative;
     padding: 20px;
     background: white;
-    border-radius: 10px;
+    border-radius: 20px;
+    margin-top: 30%;
     max-width: 90%;
     max-height: 80%;
     overflow-y: auto;
